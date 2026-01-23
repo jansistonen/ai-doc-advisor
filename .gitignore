@@ -1,0 +1,28 @@
+# Virtuaaliympäristö (tämä on se suurin ja turhin GitHubissa)
+venv/
+env/
+ENV/
+.venv/
+
+# Ympäristömuuttujat ja salaisuudet (ERITTÄIN TÄRKEÄ)
+.env
+
+# Pythonin väliaikaistiedostot
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Docker-tiedostot (jos et halua niitä kaikkia)
+.dockerignore
+
+# Macin omat tiedostot
+.DS_Store
+
+# Paikallinen vektoritietokanta (ChromaDB tallentaa datan tänne)
+# On parempi, että käyttäjä luo oman tietokantansa omilla PDF-tiedostoillaan
+chroma_db/
+db/
+
+# Streamlitin väliaikaiset asetukset
+.streamlit/
